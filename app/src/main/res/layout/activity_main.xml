@@ -8,19 +8,19 @@
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/et1"
+        android:id="@+id/et3"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:ems="10"
         android:inputType="number"
-        app:layout_constraintBottom_toTopOf="@+id/iv1"
-        app:layout_constraintEnd_toEndOf="@+id/tv2"
+        app:layout_constraintBottom_toTopOf="@+id/iv3"
+        app:layout_constraintEnd_toEndOf="@+id/tv6"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="@+id/tv2"
-        app:layout_constraintTop_toBottomOf="@+id/tv2" />
+        app:layout_constraintStart_toStartOf="@+id/tv6"
+        app:layout_constraintTop_toBottomOf="@+id/tv6" />
 
     <TextView
-        android:id="@+id/tv1"
+        android:id="@+id/tv5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
@@ -28,24 +28,24 @@
         android:text="num"
         android:textColor="#000000"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/tv2"
+        app:layout_constraintBottom_toTopOf="@+id/tv6"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/tv3"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/tv2"
+        android:id="@+id/tv6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="num"
         android:textColor="#000000"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/et1"
-        app:layout_constraintEnd_toEndOf="@+id/tv1"
+        app:layout_constraintBottom_toTopOf="@+id/et3"
+        app:layout_constraintEnd_toEndOf="@+id/tv5"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="@+id/tv1"
-        app:layout_constraintTop_toBottomOf="@+id/tv1" />
+        app:layout_constraintStart_toStartOf="@+id/tv5"
+        app:layout_constraintTop_toBottomOf="@+id/tv5" />
 
     <TextView
         android:id="@+id/tv3"
@@ -54,11 +54,11 @@
         android:text="num"
         android:textColor="#000000"
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="@+id/tv1"
-        app:layout_constraintEnd_toStartOf="@+id/tv1"
+        app:layout_constraintBottom_toBottomOf="@+id/tv5"
+        app:layout_constraintEnd_toStartOf="@+id/tv5"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/tv5"
-        app:layout_constraintTop_toTopOf="@+id/tv1" />
+        app:layout_constraintStart_toEndOf="@+id/tv1"
+        app:layout_constraintTop_toTopOf="@+id/tv5" />
 
     <TextView
         android:id="@+id/tv4"
@@ -67,13 +67,13 @@
         android:text="num"
         android:textColor="#000000"
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="@+id/tv2"
+        app:layout_constraintBottom_toBottomOf="@+id/tv6"
         app:layout_constraintEnd_toEndOf="@+id/tv3"
         app:layout_constraintStart_toStartOf="@+id/tv3"
-        app:layout_constraintTop_toTopOf="@+id/tv2" />
+        app:layout_constraintTop_toTopOf="@+id/tv6" />
 
     <TextView
-        android:id="@+id/tv5"
+        android:id="@+id/tv1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
@@ -87,15 +87,15 @@
         app:layout_constraintTop_toTopOf="@+id/tv3" />
 
     <TextView
-        android:id="@+id/tv6"
+        android:id="@+id/tv2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="num"
         android:textColor="#000000"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="@+id/tv4"
-        app:layout_constraintEnd_toEndOf="@+id/tv5"
-        app:layout_constraintStart_toStartOf="@+id/tv5"
+        app:layout_constraintEnd_toEndOf="@+id/tv1"
+        app:layout_constraintStart_toStartOf="@+id/tv1"
         app:layout_constraintTop_toTopOf="@+id/tv4" />
 
     <EditText
@@ -104,91 +104,81 @@
         android:layout_height="50dp"
         android:ems="10"
         android:inputType="number"
-        app:layout_constraintBottom_toBottomOf="@+id/et1"
+        app:layout_constraintBottom_toBottomOf="@+id/et3"
         app:layout_constraintEnd_toEndOf="@+id/tv4"
         app:layout_constraintStart_toStartOf="@+id/tv4"
-        app:layout_constraintTop_toTopOf="@+id/et1" />
+        app:layout_constraintTop_toTopOf="@+id/et3" />
 
     <EditText
-        android:id="@+id/et3"
+        android:id="@+id/et1"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:ems="10"
         android:inputType="number"
         app:layout_constraintBottom_toBottomOf="@+id/et2"
-        app:layout_constraintEnd_toEndOf="@+id/tv6"
-        app:layout_constraintStart_toStartOf="@+id/tv6"
-        app:layout_constraintTop_toTopOf="@+id/et2" />
+        app:layout_constraintEnd_toEndOf="@+id/tv2"
+        app:layout_constraintStart_toStartOf="@+id/tv2"
+        app:layout_constraintTop_toTopOf="@+id/et2"
+        app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
-        android:id="@+id/iv1"
+        android:id="@+id/iv3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@+id/btn1"
-        app:layout_constraintEnd_toEndOf="@+id/et1"
+        app:layout_constraintBottom_toTopOf="@+id/btn3"
+        app:layout_constraintEnd_toEndOf="@+id/et3"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="@+id/et1"
-        app:layout_constraintTop_toBottomOf="@+id/et1"
+        app:layout_constraintStart_toStartOf="@+id/et3"
+        app:layout_constraintTop_toBottomOf="@+id/et3"
         app:srcCompat="@drawable/x" />
 
     <ImageView
         android:id="@+id/iv2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="@+id/iv1"
+        app:layout_constraintBottom_toBottomOf="@+id/iv3"
         app:layout_constraintEnd_toEndOf="@+id/et2"
         app:layout_constraintStart_toStartOf="@+id/et2"
-        app:layout_constraintTop_toTopOf="@+id/iv1"
+        app:layout_constraintTop_toTopOf="@+id/iv3"
         app:srcCompat="@drawable/x" />
 
     <ImageView
-        android:id="@+id/iv3"
+        android:id="@+id/iv1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="@+id/iv2"
-        app:layout_constraintEnd_toEndOf="@+id/et3"
-        app:layout_constraintStart_toStartOf="@+id/et3"
+        app:layout_constraintEnd_toEndOf="@+id/et1"
+        app:layout_constraintStart_toStartOf="@+id/et1"
         app:layout_constraintTop_toTopOf="@+id/iv2"
         app:srcCompat="@drawable/x" />
-
-    <Button
-        android:id="@+id/btn1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="150dp"
-        android:text="check"
-        android:textColor="#000000"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/iv1"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="@+id/iv1"
-        app:layout_constraintTop_toBottomOf="@+id/iv1"
-        app:rippleColor="#00A0C8" />
-
-    <Button
-        android:id="@+id/btn2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="check"
-        android:textColor="#000000"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="@+id/btn1"
-        app:layout_constraintEnd_toEndOf="@+id/iv2"
-        app:layout_constraintStart_toStartOf="@+id/iv2"
-        app:layout_constraintTop_toTopOf="@+id/btn1"
-        app:rippleColor="#00A0C8" />
 
     <Button
         android:id="@+id/btn3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="150dp"
         android:text="check"
         android:textColor="#000000"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="@+id/btn2"
+        android:textSize="16sp"
+        android:onClick="check3"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/iv3"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="@+id/iv3"
+        app:layout_constraintTop_toBottomOf="@+id/iv3"
+        app:rippleColor="#00A0C8" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="check"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:onClick="check1"
+        app:layout_constraintBottom_toBottomOf="@+id/btn2"
+        app:layout_constraintEnd_toEndOf="@+id/iv1"
+        app:layout_constraintStart_toStartOf="@+id/iv1"
         app:layout_constraintTop_toTopOf="@+id/btn2"
         app:rippleColor="#00A0C8" />
 
@@ -200,9 +190,24 @@
         android:text="new game"
         android:textColor="#000000"
         android:textSize="24sp"
+        android:onClick="restart"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:rippleColor="#A500C8" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="check"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:onClick="check2"
+        app:layout_constraintBottom_toBottomOf="@+id/btn3"
+        app:layout_constraintEnd_toEndOf="@+id/iv2"
+        app:layout_constraintStart_toStartOf="@+id/iv2"
+        app:layout_constraintTop_toTopOf="@+id/btn3"
+        app:rippleColor="#00A0C8" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
